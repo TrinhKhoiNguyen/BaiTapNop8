@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div th:fragment="footer">
+        <footer class="text-white py-4 mt-4" style="background-color: #172a50;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>Admin Panel</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="/view/api/admin/home" class="text-white-50">🏠 Trang chủ</a></li>
+                            <li><a href="/view/api/admin/dashboard" class="text-white-50">📊 Dashboard</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Quản lý</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="/view/api/admin/products" class="text-white-50">📦 Sản phẩm</a></li>
+                            <li><a href="/view/api/admin/categories" class="text-white-50">📁 Danh mục</a></li>
+                            <li><a href="/view/api/admin/users" class="text-white-50">👥 Người dùng</a></li>
+                            <li><a href="/view/api/admin/orders" class="text-white-50">🛒 Đơn hàng</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="my-3">
+                <div class="row">
+                    <div class="col-md-8">
+                        <p class="mb-0">&copy; 2025 Trinh Khoi Nguyen - 23162068. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-4 text-end">
+                        <a href="/view/api/admin/settings" class="text-white-50 me-3">⚙️ Cài đặt</a>
+                        <a href="/view/api/admin/debug" class="text-white-50">🔧 Debug</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
